@@ -54,14 +54,38 @@
 		31794F2921AC7D1100FC511A /* dataReading */ = {
 			isa = PBXGroup;
 			children = (
-				31794F2A21AC7D1100FC511A /* AppDelegate.swift */,
-				31794F2C21AC7D1100FC511A /* ViewController.swift */,
-				31794F2E21AC7D1100FC511A /* Main.storyboard */,
-				31794F3121AC7D1C00FC511A /* Assets.xcassets */,
-				31794F3321AC7D1C00FC511A /* LaunchScreen.storyboard */,
-				31794F3621AC7D1C00FC511A /* Info.plist */,
+				31794F3C21AC7D4B00FC511A /* Resources */,
+				31794F3D21AC7D7900FC511A /* Controller */,
+				31794F3E21AC7DA600FC511A /* View */,
 			);
 			path = dataReading;
+			sourceTree = "<group>";
+		};
+		31794F3C21AC7D4B00FC511A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				31794F2A21AC7D1100FC511A /* AppDelegate.swift */,
+				31794F3121AC7D1C00FC511A /* Assets.xcassets */,
+				31794F3621AC7D1C00FC511A /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		31794F3D21AC7D7900FC511A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				31794F2C21AC7D1100FC511A /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		31794F3E21AC7DA600FC511A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				31794F2E21AC7D1100FC511A /* Main.storyboard */,
+				31794F3321AC7D1C00FC511A /* LaunchScreen.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,7 +305,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = dataReading/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/dataReading/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,7 +322,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = dataReading/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/dataReading/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
