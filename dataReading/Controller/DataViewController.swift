@@ -64,8 +64,7 @@ class DataViewController: UITableViewController {
     
     public override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
     {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "dataIdentifier", for: indexPath) as!
-            BucketItemCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "dataIdentifier", for: indexPath) as! BucketItemCell
         
         cell.currentBucketItem = bucketList[indexPath.row]
         

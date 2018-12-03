@@ -18,28 +18,5 @@ public class BucketItem
         itemContents = contents
         itemAuthor = author
     }
-    
- /**   private func loadBucketListFromFile() -> [BucketItem]
-    {
-        var items = [BucketItem]()
-        do
-        {
-            if let filePath = Bundle.main.url(forResource: "bucket18", withExtension: "csv")
-            {
-                let input = try String(contentsOf: filePath)
-                let bucketLines = input.components(separatedBy: "\n")
-                for line in bucketLines
-                {
-                    let item = line.components(separatedBy: ",")
-                    items.append(BucketItem(contents: item[0], author: item[1]))
-                }
-            }
-        }
-        catch
-        {
-            print("File load error")
-        }
-    }
-    return items*/
 }
 
